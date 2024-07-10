@@ -11,22 +11,31 @@
   box-sizing: border-box;
 }
 
-.text-center {
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: var(--primary-color);
   text-align: center;
 }
 
-.center-item {
-  margin: 0 auto;
-}
-
-.section-title {
-  font-size: 32px;
-  font-weight: 800px;
-  margin-bottom: 24px;
-}
-
-.light-text {
+.section-subtitle {
+  color: var(--primary-color);
   opacity: 0.7;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.card-subtitle {
+  color: var(--primary-color);
+  opacity: 0.7;
+  margin-bottom: 28px;
 }
 
 /* Banner Styles */
@@ -37,17 +46,18 @@ header {
 }
 
 header #banner {
+  margin: 0 auto;
+  text-align: center;
   max-width: 1000px;
-  padding: 32px;
+  padding: 32px 0;
 }
 
-header h1 {
+header #banner h1 {
   font-size: 48px;
-  font-weight: 800;
   margin-top: 32px;
 }
 
-header p {
+header #banner p {
   margin: 32px 0 24px 0;
 }
 
@@ -58,39 +68,29 @@ header .header-btn {
   color: #fff;
   padding: 20px 22px;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 header .header-btn:hover {
   background-color: #3d3d3d;
 }
 
+/* main */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* Dev Info Section */
 #dev-info {
   padding: 80px 100px;
-  background-color: #fafafb;
-  width: 1140px;
+  background-color: rgb(13, 19, 33, 0.02);
   border-radius: 10px;
   margin-bottom: 80px;
 }
 
-.dev-info-title h1,
-.dev-info-title p {
-  width: 850px;
-  color: var(--primary-color);
-}
-
-.dev-info-title h1 {
-  font-weight: 800;
-}
-
-.dev-info-title p {
-  margin-bottom: 48px;
-}
-
 #dev-info .card {
   display: flex;
-  background-color: #fcfcfd;
+  background-color: #fff;
   gap: 32px;
   padding: 48px;
   margin-bottom: 32px;
@@ -102,16 +102,9 @@ header .header-btn:hover {
 }
 
 #dev-info .card-info h4 {
-  font-size: 24px;
   opacity: 0.7;
-  color: var(--primary-color);
   margin-bottom: 16px;
   line-height: 36px;
-}
-
-#dev-info .card-info p {
-  opacity: 0.7;
-  margin-bottom: 32px;
 }
 
 #dev-info .card-info button {
@@ -147,24 +140,12 @@ header .header-btn:hover {
   margin-bottom: 112px;
 }
 
-.target-title {
-  max-width: 852px;
-}
-
-.target-title p {
-  margin-bottom: 48px;
-}
-
 #target .card-container {
   display: flex;
-  max-width: 1140px;
   gap: 24px;
 }
 
 #target .card {
-  display: flex;
-  flex-direction: column;
-  background-color: #fcfcfd;
   padding: 40px;
   border-radius: 10px;
 }
@@ -175,8 +156,6 @@ header .header-btn:hover {
 }
 
 #target .card h4 {
-  font-size: 24px;
-  color: var(--primary-color);
   margin-bottom: 8px;
 }
 
@@ -201,17 +180,13 @@ header .header-btn:hover {
 /* Support Styling */
 #support {
   margin-bottom: 50px;
-  color: white;
-}
-.support-content {
   background: linear-gradient(
       180deg,
       rgb(0, 0, 0, 0.5) 100%,
       rgb(0, 0, 0.5) 100%
     ),
-    url("../assets/handshake.jpg"), no-repeat, center;
+    url("../assets/handshake.jpg") no-repeat center;
   background-size: cover;
-  max-width: 1140px;
   height: 312px;
   display: flex;
   justify-content: center;
@@ -220,28 +195,29 @@ header .header-btn:hover {
   border-radius: 10px;
 }
 
-.support-title {
-  max-width: 730px;
+#support h1,
+#support p {
+  color: white;
 }
 
-#support form {
-  margin-top: 24px;
+#support p {
+  margin: 16px 0 24px 0;
+}
+
+#support .support-input,
+#support .support-btn {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
 }
 
 #support .support-input {
   width: 548px;
-  padding: 20px;
   margin-right: 10px;
-  border: none;
-  border-radius: 10px;
 }
 
 #support .support-btn {
-  border: none;
   color: var(--primary-color);
-  border-radius: 10px;
-  padding: 17px 20px;
-  font-size: 16px;
   font-weight: 600;
 }
 
@@ -252,6 +228,7 @@ footer {
 
 .footer-content {
   max-width: 1140px;
+  margin: 0 auto;
   height: 100px;
   display: flex;
   justify-content: space-between;
