@@ -140,3 +140,60 @@ header button:hover {
 .inspiration-title p {
   margin-bottom: 48px;
 }
+
+/* Target Styles */
+#target {
+  margin-bottom: 112px;
+}
+
+.target-title {
+  max-width: 852px;
+}
+
+.target-title p {
+  margin-bottom: 48px;
+}
+
+#target .card-container {
+  display: flex;
+  max-width: 1140px;
+  gap: 24px;
+}
+
+#target .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfd;
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+
+#target .card img {
+  width: 56px;
+  margin-bottom: 24px;
+}
+
+#target .card h4 {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+#target .card a {
+  margin-top: 24px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+#target .card:first-child {
+  background-color: #fff6f4;
+}
+
+#target .card:nth-child(2) {
+  background-color: #f2f6fe;
+}
+
+#target .card:nth-child(3) {
+  background-color: #fffdf2;
+}
