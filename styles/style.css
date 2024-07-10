@@ -23,12 +23,12 @@ header {
   background: url("../assets/Hero-bg.png") no-repeat center;
   background-size: cover;
   height: 650px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 header #banner {
   max-width: 1000px;
-  margin: auto;
-  height: 580px;
   text-align: center;
 }
 
@@ -40,6 +40,7 @@ header h1 {
 
 header p {
   margin: 32px 0 24px 0;
+  opacity: .7;
 }
 
 header button {
