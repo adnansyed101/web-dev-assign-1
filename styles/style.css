@@ -22,6 +22,7 @@
 .section-title {
   font-size: 32px;
   font-weight: 800px;
+  margin-bottom: 24px;
 }
 
 .light-text {
@@ -70,6 +71,7 @@ header button:hover {
   background-color: #fafafb;
   width: 1140px;
   border-radius: 10px;
+  margin-bottom: 80px;
 }
 
 .dev-info-title h1,
@@ -80,7 +82,6 @@ header button:hover {
 
 .dev-info-title h1 {
   font-weight: 800;
-  margin-bottom: 24px;
 }
 
 .dev-info-title p {
@@ -121,4 +122,21 @@ header button:hover {
 
 .card-info button:hover {
   background-color: #f0f0f0;
+}
+
+/* Inspiration Styles */
+#inspiration iframe {
+  display: block;
+  border: 1px solid var(--primary-color);
+  padding: 32px;
+  border-radius: 16px;
+  margin-bottom: 152px;
+}
+
+.inspiration-title {
+  max-width: 852px;
+}
+
+.inspiration-title p {
+  margin-bottom: 48px;
 }
