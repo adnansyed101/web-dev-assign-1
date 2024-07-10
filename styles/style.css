@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   font-family: "Azeret Mono";
+  box-sizing: border-box;
 }
 
 /* Shared Styles */
@@ -40,7 +41,7 @@ header h1 {
 
 header p {
   margin: 32px 0 24px 0;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 header button {
@@ -54,4 +55,68 @@ header button {
 
 header button:hover {
   background-color: #3d3d3d;
+}
+
+/* Dev Info Section */
+#dev-info {
+  padding: 80px 100px;
+  background-color: #fafafb;
+  width: 1140px;
+  margin: 80px auto;
+  border-radius: 10px;
+}
+
+.dev-info-title h1,
+.dev-info-title p {
+  width: 855px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.dev-info-title h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.dev-info-title p {
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+
+.card {
+  display: flex;
+  background-color: #fcfcfd;
+  gap: 32px;
+  padding: 48px;
+  margin-bottom: 32px;
+  width: 940px;
+  border-radius: 10px;
+}
+
+.card-info {
+  margin-right: 100px;
+}
+
+.card-info h4 {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  line-height: 36px;
+}
+
+.card-info p {
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+
+.card-info button {
+  border: 1px solid var(--primary-color);
+  padding: 12px 20px;
+  background-color: #fcfcfd;
+  cursor: pointer;
+}
+
+.card-info button:hover {
+  background-color: #f0f0f0;
 }
