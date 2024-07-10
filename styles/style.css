@@ -33,7 +33,6 @@
 header {
   background: url("../assets/Hero-bg.png") no-repeat center;
   background-size: cover;
-  height: 650px;
   margin-bottom: 80px;
 }
 
@@ -52,16 +51,17 @@ header p {
   margin: 32px 0 24px 0;
 }
 
-header button {
+header .header-btn {
+  display: inline-block;
+  text-decoration: none;
   background-color: var(--primary-color);
   color: #fff;
-  padding: 20px 24px;
+  padding: 20px 22px;
   border-radius: 10px;
-  border: none;
   cursor: pointer;
 }
 
-header button:hover {
+header .header-btn:hover {
   background-color: #3d3d3d;
 }
 
