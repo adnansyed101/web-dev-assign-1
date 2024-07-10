@@ -88,7 +88,7 @@ header button:hover {
   margin-bottom: 48px;
 }
 
-.dev-info .card {
+#dev-info .card {
   display: flex;
   background-color: #fcfcfd;
   gap: 32px;
@@ -97,30 +97,30 @@ header button:hover {
   border-radius: 10px;
 }
 
-.dev-info .card-info {
+#dev-info .card-info {
   margin-right: 100px;
 }
 
-.dev-info .card-info h4 {
+#dev-info .card-info h4 {
   font-size: 24px;
   color: var(--primary-color);
   margin-bottom: 16px;
   line-height: 36px;
 }
 
-.dev-info .card-info p {
+#dev-info .card-info p {
   opacity: 0.7;
   margin-bottom: 32px;
 }
 
-.dev-info .card-info button {
+#dev-info .card-info button {
   border: 1px solid var(--primary-color);
   padding: 12px 20px;
   background-color: #fcfcfd;
   cursor: pointer;
 }
 
-.dev-info .card-info button:hover {
+#dev-info .card-info button:hover {
   background-color: #f0f0f0;
 }
 
