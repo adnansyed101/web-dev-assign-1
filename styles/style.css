@@ -166,7 +166,6 @@ header button:hover {
   background-color: #fcfcfd;
   padding: 40px;
   border-radius: 10px;
-  
 }
 
 #target .card img {
@@ -196,4 +195,47 @@ header button:hover {
 
 #target .card:nth-child(3) {
   background-color: #fffdf2;
+}
+
+/* Support Styling */
+#support {
+  margin-bottom: 50px;
+  color: white;
+}
+.support-content {
+  background-image: url("../assets/handshake.jpg");
+  max-width: 1140px;
+  height: 312px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.support-title {
+  max-width: 730px;
+}
+
+#support form {
+  margin-top: 24px;
+}
+
+#support .support-input {
+  width: 548px;
+  padding: 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+#support .support-btn {
+  border: none;
+  color: var(--primary-color);
+  border-radius: 10px;
+  padding: 17px 20px;
+  font-size: 16px;
+  font-weight: 600;
 }
