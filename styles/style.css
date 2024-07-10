@@ -204,11 +204,15 @@ header button:hover {
   color: white;
 }
 .support-content {
-  background-image: url("../assets/handshake.jpg");
+  background: linear-gradient(
+      180deg,
+      rgb(0, 0, 0, 0.5) 100%,
+      rgb(0, 0, 0.5) 100%
+    ),
+    url("../assets/handshake.jpg"), no-repeat, center;
+  background-size: cover;
   max-width: 1140px;
   height: 312px;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
